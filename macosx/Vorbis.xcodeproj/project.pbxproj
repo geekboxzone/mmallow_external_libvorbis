@@ -309,7 +309,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 730F23F3091827B200AB638C /* Build configuration list for PBXProject "Vorbis" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* vorbis */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -372,9 +379,9 @@
 				HEADER_SEARCH_PATHS = (
 					../lib,
 					../include,
-					"../../libogg-1.2.0/include",
+					../../libogg/include,
 				);
-				USER_HEADER_SEARCH_PATHS = "../include ../../libogg-1.2.0/include";
+				USER_HEADER_SEARCH_PATHS = "../include ../../libogg/include";
 			};
 			name = Debug;
 		};
@@ -387,14 +394,14 @@
 				HEADER_SEARCH_PATHS = (
 					../lib,
 					../include,
-					"../../libogg-1.2.0/include",
+					../../libogg/include,
 				);
 				OTHER_CFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-ffast-math",
 					"-falign-loops=16",
 				);
-				USER_HEADER_SEARCH_PATHS = "../include ../../libogg-1.2.0/include";
+				USER_HEADER_SEARCH_PATHS = "../include ../../libogg/include";
 			};
 			name = Release;
 		};
